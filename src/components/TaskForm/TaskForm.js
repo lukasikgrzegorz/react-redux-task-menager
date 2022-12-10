@@ -7,7 +7,6 @@ export const TaskForm = () => {
 		const form = event.target;
 		form.reset();
 	};
-
 	return (
 		<form className={css.form} onSubmit={handleSubmit}>
 			<input className={css.field} type="text" name="text" placeholder="Enter task text..." />
